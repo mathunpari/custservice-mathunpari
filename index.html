@@ -1,151 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="EGC6QrBHLUBDjNm5P_FQ7qYcOP0s1B7Dw3Tp6xjx0Fw" />
-    <title>Customer Service - Pendidikan Matematika Unpari</title>
+    <title>Form Login</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f8ff;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-
-        header {
-            background-color: #002147;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            color: #002147;
-        }
-
-        h3 {
-            color: #002147;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        .section-title {
-            font-weight: bold;
-            margin-top: 20px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #002147;
-            color: white;
-            margin-top: 40px;
-        }
-    </style>
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <div class="logo-container">
-            <img src="logo-unpari.png" alt="Logo Unpari" class="logo">
-            <h1>
-                <p>Cust Service Prodi Matematika</p>
-                <p>Universitas PGRI Silampari</p>
-            </h1>
+    <div class="container1">
+        <header>
+            <img src="logo-unpari.png" alt="Logo Kampus" class="logo">
+            <h1>Welcome to Website Customer Service Math UNPARI</h1>
+        </header>
+        <div class="form-container">
+            <h2>Login</h2>
+            <form action="menu.html" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <button type="submit">Login</button>
+            </form>
         </div>
-    </header>
-
-    <!-- Navigation Menu -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tentang-prodi.html">Tentang Prodi</a></li>
-            <li><a href="pendaftaran-biaya.html">Pendaftaran dan Biaya</a></li>
-            <li><a href="keringanan-biaya.html">Keringanan Biaya</a></li>
-            <li><a href="beasiswa.html">Beasiswa</a></li>
-            <li><a href="program-kampus.html">Program Kampus</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section with Background Image -->
-    <section class="hero">
-        <div class="hero-img">
-            <img src="foto-kampus.jpg" alt="Kampus Unpari">
-        </div>
-    </section>
-
-    <!-- Konten Utama -->
-    <section class="container">
-       <ul>
-        <h2>UNIVERSITAS PGRI SILAMPARI Pilihan tepat!!!</h2>
-        <li>Kami Selalu mengutamakan kualitas pendidikan dengan biaya terjangkau dan flexibel, di dukung dengan fasilitas yang representatif dan dosen yang berpendidikan S2 dan S3</li>
-        </ul>
-
-        
-        <h2>Pelayanan Mahasiswa</h2>
-        <ul>
-            <li>Para mahasiswa akan di bimbing oleh para dosen yang berlatar belakang pendidikan S2 & S3 yang releven dengan bidang ilmu masing-masing. Serta jajaran pimpinan dan tenaga administrasi yang profesional di harapkan dapat mendukung tercapainya hasil studi secara maksimal</li>
-        </ul>
-    </section>
-
-    <section class="container">
-        <h3>Kontak Utama Kampus</h3>
-
-        <ul>
-            <li class="section-title">1. Email Kampus :</li>
-            <li><a href="http://info@unpari.ac.id" target="_blank">info@unpari.ac.id</a></li>
-
-            <li class="section-title">2. Website Kampus :</li>
-            <li><a href="http://www.unpari.ac.id" target="_blank">www.unpari.ac.id</a></li>
-
-            <li class="section-title">3. No Telepon Kampus :</li>
-            <li><a href="https://contact.me/62733451432" target="_blank">(0733) 451432</a></li>
-
-            <li class="section-title">4. Alamat Kampus : </li>
-            <li>Jalan Mayor Toha, Kelurahan Air Kuti, Kecamatan Lubuklinggau Timur I, Kota Lubuklinggau, Kode Pos 31626
-            </li>
-
-            <li class="section-title">5. Jam Operasional : </li>
-            <li>Pagi : 08.00 - 12.00</li>
-            <li>Sore : 15.00 - 19.00</li>
-        </ul>
-    </section>
-
-    <!-- Penutup Section -->
-    <section id="penutup">
-        <p>Terima kasih telah mengunjungi website layanan customer service kami. Kami siap membantu Anda!</p>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Prodi Pendidikan Matematika - Universitas PGRI Silampari</p>
-        <p>Jl. Mayor Toha No. 16, Lubuklinggau, Sumatera Selatan</p>
-    </footer>
+    </div>
 </body>
 
 </html>
