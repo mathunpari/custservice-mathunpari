@@ -17,7 +17,7 @@
                 <h1>Welcome to Customer Service Math UNPARI</h1>
                 <p>Please log in to access this website</p>
             </header>
-            <form action="menu.html" method="POST">
+            <form onsubmit="redirectToMenu(); return false;">
                 <div class="input-group">
                     <label for="username">Username</label>
                     <input type="text" id="username" name="username" placeholder="Enter your username" required>
@@ -32,6 +32,12 @@
             </form>
         </div>
     </div>
+
+     <script>
+        function redirectToMenu() {
+            window.location.href = 'menu.html'; // Langsung berpindah ke menu.html
+        }
+    </script>
 </body>
 
 </html>
