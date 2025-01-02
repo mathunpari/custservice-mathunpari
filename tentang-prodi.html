@@ -1,159 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tentang Program Studi - Pendidikan Matematika Unpari</title>
+    <title>Tentang Prodi - Pendidikan Matematika Unpari</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f8ff;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-
-        header {
-            background-color: #002147;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            color: #002147;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        .section-title {
-            font-weight: bold;
-            margin-top: 20px;
-        }
-
-        .contacts {
-            margin-top: 20px;
-        }
-
-        .contacts ul {
-            padding-left: 0;
-        }
-
-        .contacts li {
-            margin-bottom: 10px;
-        }
-
-        .contacts a {
-            color: #f39c12;
-            text-decoration: none;
-        }
-
-        
-        .media {
-            margin-top: 20px;
-        }
-
-        .media ul {
-            padding-left: 0;
-        }
-
-        .media li {
-            margin-bottom: 10px;
-        }
-
-        .media a {
-            color: #f39c12;
-            text-decoration: none;
-        }
-
-        .media a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #002147;
-            color: white;
-            margin-top: 40px;
-        }
-    </style>
 </head>
-<body>
 
+<body>
     <!-- Header -->
     <header>
-        <div class="logo-container">
+        <div class="header-content">
             <img src="logo-unpari.png" alt="Logo Unpari" class="logo">
-            <h1>
-                <p>Customer Service Prodi Pendidikan Matematika</p>
-            <p>Universitas PGRI Silampari</p>
-            </h1>
+            <div class="header-text">
+                <h1>Cust Service Prodi Pendidikan Matematika</h1>
+                <h2>Universitas PGRI Silampari</h2>
+            </div>
         </div>
+        <hr class="divider">
     </header>
 
     <!-- Navigation Menu -->
     <nav>
-        <ul>
+        <ul class="menu">
             <li><a href="menu.html">Home</a></li>
             <li><a href="tentang-prodi.html">Tentang Prodi</a></li>
-            <li><a href="pendaftaran-biaya.html">Pendaftaran dan Biaya</a></li>
-            <li><a href="keringanan-biaya.html">Keringanan Biaya</a></li>
+            <li><a href="alur-pendaftaran.html">Alur Pendaftaran</a></li>
+            <li><a href="biaya-studi.html">Biaya Studi</a></li>
             <li><a href="beasiswa.html">Beasiswa</a></li>
             <li><a href="program-kampus.html">Program Kampus</a></li>
         </ul>
     </nav>
 
-    <!-- Konten Utama -->
+    <!-- Hero Section -->
+    <section id="hero">
+        <img src="foto-prodi.jpg" alt="" class="hero-image">
+    </section>
+
+    <!-- Main Content -->
     <section class="container">
-        <h2>Tentang Program Studi</h2>
+        <h2 class="section-title">Tentang Program Studi</h2>
 
-        <div class="section-title">A. Fakultas Sains dan Teknologi</div>
-        <p>Program Studi Pendidikan Matematika merupakan bagian dari Fakultas Sains dan Teknologi Universitas PGRI Silampari.</p>
+        <!-- Fakultas Sains dan Teknologi -->
+        <div class="content-section" id="fakultas">
+            <h3>A. Fakultas Sains dan Teknologi</h3>
+            <p>Program Studi Pendidikan Matematika merupakan bagian dari Fakultas Sains dan Teknologi Universitas PGRI Silampari.</p>
+        </div>
+        
+        <hr class="section-divider">
+        
+        <!-- Akreditasi Prodi -->
+        <div class="content-section" id="akreditasi">
+            <h3>B. Akreditasi Prodi Pendidikan Matematika</h3>
+            <p><strong>Akreditasi :</strong> Baik (B)</p>
+        </div>
 
-        <div class="section-title">B. Akreditasi Prodi Pendidikan Matematika</div>
-        <p>Akreditasi : Baik (B)</p>
+        <hr class="section-divider">
+        
+        <!-- Kontak Prodi -->
+        <div class="content-section" id="kontak">
+            <h3>C. Kontak Prodi</h3>
+            <ul>
+                <li><strong>Idul Adha :</strong> <a href="wa.me/6285266568078"target="_blank">0852-6656-8078</a></li>
+                <li><strong>Maria Lutfiana :</strong> <a href="wa.me/6281379246183"target="_blank">0813-7924-6183</a></li>
+                <li><strong>Dwi Oetari :</strong> <a href="wa.me/6282186000492"target="_blank">0821-8600-0492</a></li>
+            </ul>
+        </div>
 
-        <div class="section-title">C. Kontak Prodi</div>
-        <ul class="contacts">
-            <li>1. Idul Adha : <a href="https://wa.me/6285266568078" target="_blank">0852-6656-8078</a></li>
-            <li>2. Maria Lutfiana : <a href="https://wa.me/6281379246183" target="_blank">0813-7924-6183</a></li>
-            <li>3. Dwi Oetari : <a href="https://wa.me/6282186000492" target="_blank">0821-8600-0492</a></li>
-        </ul>
+        <hr class="section-divider">
+        
+        <!-- Media Sosial -->
+        <div class="content-section" id="media-sosial">
+            <h3>D. Media Sosial</h3>
+            <ul>
+                <li><strong>Instagram : </strong> <a href="https://instagram.com/pend.matematika_unpari" target="_blank">@pend.matematika_unpari</a></li>
+                
+                <li><strong>Facebook : </strong><a href="https://www.facebook.com/share/1WHzDjj5eF/" target="_blank">pend mtk unpari</a></li>
 
-        <div class="section-title">D. Media Sosial</div>
-        <ul class="media">
-            <li>1. Instagram : <a href="https://instagram.com/pend.matematika_unpari" target="_blank">@pend.matematika_unpari</a></li>
-            <li>2. Facebook : <a href="https://facebook.com/pendmtkunpari" target="_blank">pend mtk unpari</a></li>
-            <li>3. TikTok : <a href="https://tiktok.com/@Pend_Matematika_Unpari" target="_blank">@Pend_Matematika_Unpari</a></li>
-        </ul>
+                 <li><strong>Tik Tok : </strong><a href="https://www.tiktok.com/@pendmatematikaunpari?_t=8sizAw0MngI&_r=1" target="_blank">@Pendmatematikaunpari</a></li>
+            </ul>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Program Studi Pendidikan Matematika - Universitas PGRI Silampari</p>
+        <p>&copy; 2024 Prodi Pendidikan Matematika</p>
+        <p>Universitas PGRI Silampari</p>
     </footer>
-
 </body>
+
 </html>
